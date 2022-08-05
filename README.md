@@ -6,7 +6,7 @@ This project of the Holberton SE course curriculum is aimed at building a comple
    ## Step 1:
     
    By the end of this first step, we shall have been able to: <br/>
-    ***
+   
    * put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of future instances <br/>
    * create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file <br/>
    * create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel <br/>
@@ -17,7 +17,7 @@ This project of the Holberton SE course curriculum is aimed at building a comple
 
 Just like the shell but limited to specific use. 
 It is the commandline interface from which we are able to: <br/>
-***
+
 * Create a new object (ex: a new User or a new Place) <br/>
 * Retrieve an object from a file, a database etc… <br/>
 * Do operations on objects (count, compute stats, etc…) <br/>
