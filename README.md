@@ -4,7 +4,7 @@
 This project of the Holberton SE course curriculum is aimed at building a complete web application by the end of it: the AirBnB clone
     ## Step 1:
     By the end of this first step, we shall have been able to:
-    * put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of future instances
+    * put in place a parent class (called BaseModel) to take care of the initialization, serialization and deserialization of future instances <br/>
     * create a simple flow of serialization/deserialization: Instance <-> Dictionary <-> JSON string <-> file
     * create all classes used for AirBnB (User, State, City, Place…) that inherit from BaseModel
     * create the first abstracted storage engine of the project: The File storage.
