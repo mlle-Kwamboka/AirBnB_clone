@@ -25,7 +25,7 @@ class BaseModel:
     """Returns a string representation"""
     return ([BaseModel], (self.id), self.__dict__)
   def save(self):
-    """Updated the updated_at attribute with the current time"""
+    """Updates the updated_at attribute with the current time"""
     self.updated_at = datetime.now()
     return self.updated_at
 
