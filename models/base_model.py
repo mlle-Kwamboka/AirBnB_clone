@@ -8,7 +8,7 @@ class BaseModel:
   created_at = (datetime.today())
   updated_at = (datetime.today())
 
-  def __int__(self, id, name, created_at, updated_at):
+  def __init__(self, id, name, created_at, updated_at):
     """Initializing BaseModel object
     args:
       id: The uuid of the instance
