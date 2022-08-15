@@ -4,10 +4,6 @@ from datetime import datetime
 class BaseModel:
   """Class defining all common attributes and methods for other classes"""
   
-  id = str(uuid.uuid4())
-  created_at = (datetime.today())
-  updated_at = (datetime.today())
-
   def __init__(self, *args, **kwargs):
       """Initializing BaseModel object
       """
@@ -23,7 +19,7 @@ class BaseModel:
                   if key in ('created_at', 'updated_at'):
                       setattr(self, key, datetime.fromisoformat(value))
                   else:
-                      setattr(self,key, value)
+                      setattr(self, key, value)
 
   def __str__(self):
       """Returns a string representation in the format [BaseModel], (self.id), self.__dict__"""
