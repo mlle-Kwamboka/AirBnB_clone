@@ -3,7 +3,7 @@ color: #fff;
 height: 70px;
 width: 100%;
 border-bottom: 1px solid #CCCCCC;
-background-image: url(../images/logo.png);
+background: url(../image/logo.png) left center no-repeat;
 background-position-x: 20px;
 float: left;
 }
