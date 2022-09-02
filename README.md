@@ -30,4 +30,7 @@ cmd module - is useful for building a custom command interepretor
 
 ##Examples
 The shell is an example***
-    
+
+##Authors
+Ruth Mayenga
+June Akinyi
