@@ -3,6 +3,9 @@
 """Defining a class User"""
 
 
-class User:
-    """User is empty"""
-    pass
+class User(BaseModel):
+    """Class representing a user"""
+    email = ""
+    password = ""
+    first_name = ""
+    last_name = ""
