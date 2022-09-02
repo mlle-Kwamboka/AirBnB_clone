@@ -6,6 +6,7 @@ from models.base_model import BaseModel
 from datetime import datetime
 import os
 
+
 class Test_Base_Models(unittest.TestCase):
     """Unit test for testing instantiation of the BaseModel"""
 
@@ -13,7 +14,7 @@ class Test_Base_Models(unittest.TestCase):
         """Testing for the presence instance id """
         B = BaseModel()
         self.assertTrue(hasattr(B, "id"))
-    
+
     def str_rep(self):
         """Tests that str representation is appropriate"""
         self.assertEqual(str(b), "[BaseModel] ({}) {}".format(b.id, b.__dict__))
@@ -23,7 +24,7 @@ class Test_Base_Models(unittest.TestCase):
         B1 = Basemodel()
         B2 = BaseModel()
         self.assertNotEqual(B1.id, B2.id)
-    
+        
     def type_id(self):
         """Tests that id is str"""
         B = BaseModel()
