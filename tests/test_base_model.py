@@ -17,19 +17,20 @@ class Test_Base_Models(unittest.TestCase):
 
     def str_rep(self):
         """Tests that str representation is appropriate"""
-        self.assertEqual(str(b), "[BaseModel] ({}) {}".format(b.id, b.__dict__))
+        self.assertEqual(str(b), "[BaseModel] ({}) {}"
+                         .format(b.id, b.__dict__))
 
     def unique_id(self):
         """Tests for unique id"""
         B1 = Basemodel()
         B2 = BaseModel()
         self.assertNotEqual(B1.id, B2.id)
-        
+
     def type_id(self):
         """Tests that id is str"""
         B = BaseModel()
         self.assertTrue(Type(B.id) is str)
-        
+
     def created_at_is_datetime(self):
         """Tests that created_at is datetime"""
         B = BaseModel()
