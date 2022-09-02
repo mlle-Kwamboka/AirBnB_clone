@@ -1,7 +1,8 @@
-#!/usr/bin/bash/python 3
+#!/usr/bin/python3
 
-""" testing pycode style with an empty class"""
+"""Defining a class User"""
+
 
 class User:
-	"""Class user is empty"""
-	pass
+    """User is empty"""
+    pass
