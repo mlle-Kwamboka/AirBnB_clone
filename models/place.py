@@ -1,7 +1,8 @@
-#!/usr/bin/python 3
+#!/usr/bin/python3
 
-"""Empty class"""
+"""Defining a class Place"""
 
-class place:
-	"""empty"""
-	pass
+
+class Place:
+    """Place is empty"""
+    pass
