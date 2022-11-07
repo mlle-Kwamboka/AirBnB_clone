@@ -4,5 +4,6 @@
 
 
 class City:
-    """City is empty"""
-    pass
+    """a class that represents a city"""
+    state_id = ""
+    name = ""
