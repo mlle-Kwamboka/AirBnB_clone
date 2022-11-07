@@ -56,7 +56,7 @@ class FileStorage:
                         for k, v in obj_dict.items()}
             FileStorage.__objects = obj_dict
             
-     def attributes(self):
+    def attributes(self):
         """Returns the valid attributes and their types for classname."""
         attributes = {
             "BaseModel":
