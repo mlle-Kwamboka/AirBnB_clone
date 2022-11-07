@@ -3,7 +3,7 @@
 """Defining a class City"""
 from models.base_model import BaseModel
 
-class City:
+class City(BaseModel):
     """a class that represents a city"""
     state_id = ""
     name = ""
