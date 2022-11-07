@@ -3,7 +3,7 @@
 """Defining a class Place"""
 from models.base_model import BaseModel
 
-class Place:
+class Place(BaseModel):
     """Class representing place"""
     city_id = ""
     user_id = ""
